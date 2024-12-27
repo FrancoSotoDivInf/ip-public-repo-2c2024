@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Página-1" id="OOsOBSJ37qPy63uGSOQ0">
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-1" value="&lt;div&gt;FCT_T01v1&lt;/div&gt;&lt;div&gt;(Facturar cobranza de préstamo)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="135" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-2" value="&lt;div&gt;FCT_T07v1&lt;/div&gt;&lt;div&gt;(Validar comprobante B existente)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="135" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-3" target="O5rArWz0RRXLKf1uvHQ3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-3" value="&lt;div&gt;FCT_T06v1&lt;/div&gt;&lt;div&gt;(Crear nota de crédito B, por monto total)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="135" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-4" target="O5rArWz0RRXLKf1uvHQ3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FCT_T07v2&lt;/div&gt;&lt;div&gt;(Validar nota de crédito B existente, monto total)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="135" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-1" target="O5rArWz0RRXLKf1uvHQ3-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="220" as="sourcePoint" />
+            <mxPoint x="280" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-2" target="O5rArWz0RRXLKf1uvHQ3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.5" y="330" as="sourcePoint" />
+            <mxPoint x="179.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-8" value="&lt;div&gt;FCT_T05v1&lt;/div&gt;&lt;div&gt;(Eliminar comprobante, con filtro de numero)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="314" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-9" value="&lt;div&gt;FCT_T07v3&lt;/div&gt;&lt;div&gt;(Validar comprobante eliminado)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="314" y="270.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-10" value="&lt;div&gt;FCT_T06v2&lt;/div&gt;&lt;div&gt;(Crear nota de crédito B, por monto especial/parcial)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="315" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-11" target="O5rArWz0RRXLKf1uvHQ3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-11" value="&lt;div&gt;FCT_T07v4&lt;/div&gt;&lt;div&gt;(Validar nota de crédito B existente, monto especial/parcial)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="315" y="550" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" target="O5rArWz0RRXLKf1uvHQ3-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-9" target="O5rArWz0RRXLKf1uvHQ3-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.5" y="360" as="sourcePoint" />
+            <mxPoint x="359.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-10" target="O5rArWz0RRXLKf1uvHQ3-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.5" y="500" as="sourcePoint" />
+            <mxPoint x="359.5" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-15" target="O5rArWz0RRXLKf1uvHQ3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-15" value="&lt;div&gt;FCT_T02v1&lt;/div&gt;&lt;div&gt;(Facturación Excel de cobranza de préstamo)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;direction=west;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-16" value="&lt;div&gt;&lt;font&gt;FCT_T07v5&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;(Validar comprobante B creado contra archivo Excel)&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;direction=west;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270.5" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-17" target="O5rArWz0RRXLKf1uvHQ3-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-17" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FCT_T07v2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;(Validar nota de crédito B existente, monto total)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;direction=west;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="485" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-18" target="O5rArWz0RRXLKf1uvHQ3-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="520" />
+              <mxPoint x="535" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-18" value="FCT_T04v1&lt;br&gt;(Modificar comprobante con filtro de numero)" style="whiteSpace=wrap;html=1;aspect=fixed;direction=west;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="485" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-25" target="O5rArWz0RRXLKf1uvHQ3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-25" value="FCT_T04v2&lt;br&gt;(Modificar comprobante con filtro de fecha)" style="whiteSpace=wrap;html=1;aspect=fixed;direction=west;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="485" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="O5rArWz0RRXLKf1uvHQ3-27" target="O5rArWz0RRXLKf1uvHQ3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5rArWz0RRXLKf1uvHQ3-27" value="&lt;div&gt;FCT_T07v1&lt;/div&gt;&lt;div&gt;(Validar comprobante B creado)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;labelBorderColor=none;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="485" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
